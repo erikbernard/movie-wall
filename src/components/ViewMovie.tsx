@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { AddMovieContext } from '../contexts/AddMovieContext';
-import styles from '../styles/components/viewMovie.module.css'
+import styles from '../styles/components/ViewMovie.module.css'
 
 export function ViewMovie (){
     const { viewMovieValues } = useContext(AddMovieContext);
