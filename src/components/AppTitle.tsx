@@ -1,4 +1,4 @@
-import styles from '../styles/components/appTitle.module.css';
+import styles from '../styles/components/AppTitle.module.css';
 
 export function AppTitle() { 
     return (
