@@ -24,7 +24,7 @@
 </p>
 
 ## Deploy
-- [Vercel](https://move-it-psi-sepia.vercel.app/) - https://move-it-psi-sepia.vercel.app/
+- [Vercel](https://movie-wall-q9enelm5t-erikbernard.vercel.app/) - https://movie-wall-q9enelm5t-erikbernard.vercel.app/
 
 ## ✨ Tecnologias
 
