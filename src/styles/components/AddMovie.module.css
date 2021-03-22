@@ -1,0 +1,37 @@
+.AddMovieContainer {
+    width: 190.39px;
+
+    border: 2px solid var(--green);
+    border-radius: 8px;
+    margin-left: 1.5rem;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.AddMovieContainer > div {
+    width: 170.39px;
+
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+
+    border: 2px dashed var(--green);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+}
+.AddMovieContainer > div img {
+    height: 2rem;
+    margin-top: 2.5rem;
+}
+.AddMovieContainer > div span {
+    color: var(--green);
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}

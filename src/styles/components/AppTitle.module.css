@@ -1,0 +1,22 @@
+.appTitle{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.appTitle > div{
+    flex: 1;
+    font-weight: 600;
+    font-size: 2.2rem;
+
+    height: 3.8rem;
+    text-align: center;
+
+    border-radius: 10px;
+    background: var(--gray-light);
+    margin: 0 1.5rem;
+    padding-top: 10px;
+    position: relative;
+}
+
+

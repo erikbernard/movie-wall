@@ -1,0 +1,119 @@
+.modalContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9;
+}
+.modalContainerNone {
+    display: none;
+}
+.modalContainer > div {
+    width:  33.6rem;
+    height: 20rem;
+    
+    background: var(--white);
+    border-radius: 9px;
+    z-index: 9;
+}
+.modalContainer > div div .modalTitle{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 15rem;
+    margin-right: 13rem;
+    z-index: 10;
+}
+.modalContainerTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    width: 100%;
+    height: 34px;
+    
+    border-radius: 9px 9px 0px 0px;
+    background: var(--gray-light);
+    z-index: 10;
+}
+.modalImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    z-index: 10;
+}
+.modalImage img {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+
+    z-index: 10;
+}
+
+.containerForm  {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.3rem;
+
+    position: relative;
+}
+.containerForm span {
+    margin-top: 1.5rem;
+    text-indent: 2.8rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--gray-light);
+}
+.containerForm input {
+    outline: none;
+    border: 0;
+    
+    width:  28rem;
+    height: 3rem;
+    justify-self: center;
+
+    background: var(--background);
+    border-radius: 8px;
+
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.containerBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+.containerBtn button {
+    height: 3rem;
+    width: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    border: none;
+    outline: var(--gray-light);
+    border-radius: 5px;
+
+    font-size:  1.2rem;
+    font-weight: 600;
+    color: var(--white);
+}
+.containerBtn button[value="Ok"] {
+    background: var(--green)
+}
+.containerBtn button[value="Cancel"] {
+    background: var(--red)
+}
+.containerBtn button:hover {
+    filter: brightness(0.9);
+}
